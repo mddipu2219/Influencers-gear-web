@@ -53,6 +53,7 @@ nav ul img {
 .sponsor .sponsor-icons {
   display: flex;
   justify-content: space-evenly;
+
 }
 .sponsor:hover{
   border: 1px solid lightseagreen;
@@ -158,6 +159,7 @@ color: red;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-evenly;
+    gap: 20px;
   }
   .collection-container{
     margin: 50px 10px;
@@ -167,8 +169,19 @@ color: red;
 margin-left: 40px;
   }
   .collection-container .see-more a{
-    margin-left: 300px;
+    margin-left: 150px;
+  }
+  .collection-container:hover{
+    border: none;
+    border-radius: 10px;
+  }
+  .footer{
+margin-left: 50px;
   }
 .footer_icons {
-  margin-left: 120px;
+  margin-left: 100px;
+}
+.feature-product{
+  margin-left: 100px;
+}
 }
