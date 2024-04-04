@@ -60,6 +60,7 @@ nav ul img {
 /* popular collection */
 .collection-container:hover{
   border: 1px solid blue;
+  border-radius: 10px;
 }
 .collection-container{
   margin: 50px 100px;
@@ -91,7 +92,21 @@ color: red;
   position: relative; 
   margin-left: 1000px;
 }
-
+/* feature */
+.feature-product:hover{
+  border: 1px solid lightblue;
+}
+.feature-product{
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  margin: 50px 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.feature-content{
+  text-align: left;
+}
 /* mobile view */
 @media screen and (max-width: 576px) {
   .nav {
