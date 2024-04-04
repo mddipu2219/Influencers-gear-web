@@ -16,7 +16,7 @@ nav ul li {
 }
 nav ul img {
   width: 20px;
-  height: auto;
+  height: auto;r
 }
 /* header section */
 .header-container {
@@ -84,6 +84,12 @@ nav ul img {
   font-size: 20px;
   font-weight: 600;
 }
+.collection-container .see-more{
+font-size: 25px;
+color: red;
+  position: relative;
+  margin-left: 1000px;
+}
 
 /* mobile view */
 @media screen and (max-width: 576px) {
@@ -123,5 +129,8 @@ nav ul img {
   .popular-collection{
     grid-template-columns: repeat(1,1fr);
 margin-left: 50px;
+  }
+  .collection-container .see-more{
+    margin-left: 300px;
   }
 }
