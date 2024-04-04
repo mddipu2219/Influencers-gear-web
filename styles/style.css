@@ -29,9 +29,10 @@ nav ul img {
   background-image: url("/images/Circle\ design.svg");
   bor
 }
-.header-tittle {
+.header-tittle, .tittle {
   font-size: 45px;
   font-weight: 700;
+  text-align:center;
 }
 .description {
   color: grey;
@@ -40,6 +41,8 @@ nav ul img {
   background-color: pink;
   padding: 5px 10px;
   border-radius: 15px;
+  text-align: center;
+  padding-right: 50px;
 }
 /* sponsor */
 .sponsor {
@@ -53,6 +56,35 @@ nav ul img {
 .sponsor:hover{
   border: 1px solid lightseagreen;
 }
+/* popular collection */
+.collection-container:hover{
+  border: 1px solid blue;
+}
+.collection-container{
+  margin: 50px 100px;
+}
+.popular-collection{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  gap: 20px;
+  background-color: whitesmoke;
+}
+.collection{
+  
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+}
+.popular-collection img{
+  width: 325px;
+  height: 250px;
+}
+.collection-ammount{
+  font-size: 20px;
+  font-weight: 600;
+}
+
 /* mobile view */
 @media screen and (max-width: 576px) {
   .nav {
@@ -69,10 +101,6 @@ nav ul img {
     align-items: center;
     text-align: center;
   }
-  .header-content {
-    margin: 0%;
-    padding: 0%;
-  }
   .header-tittle {
     font-size: 30px;
     font-weight: 600;
@@ -88,5 +116,12 @@ nav ul img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-evenly;
+  }
+  .collection-container{
+    margin: 50px 10px;
+  }
+  .popular-collection{
+    grid-template-columns: repeat(1,1fr);
+margin-left: 50px;
   }
 }
