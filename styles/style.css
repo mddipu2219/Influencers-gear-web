@@ -116,7 +116,7 @@ color: red;
   .nav ul {
     flex-direction: column;
   }
-  .header-container {
+  .header-container, .feature-product {
     flex-direction: column-reverse;
     gap: 50px;
     margin: 20px;
